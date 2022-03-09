@@ -1,0 +1,2 @@
+default: Vour
+include Vour.mk
