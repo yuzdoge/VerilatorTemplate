@@ -9,7 +9,7 @@ endif
 ############################################################################
 # Set up variables
 ifeq ($(VERILATOR_ROOT),)
-VERLATOR = verilator
+VERILATOR = verilator
 else
 export VERILATOR_ROOT # pass the value of VERILATOR_ROOT to the sub-make
 VERILATOR = $(VERILATOR_ROOT)/bin/verilator
